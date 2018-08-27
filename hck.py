@@ -76,12 +76,12 @@ lineSettings = sw.getSettings()
 Zmid = sw.getProfile().mid
 responsename7 = sw.getProfile().displayName
 
-print("---LOGIN SUCCES---")
+print("BY:【さัএπัஞ✵ບิथℓℓҨतΩ】")
 
-creator = ["u054c3692f90083a5b1ad23e4a663f676"]
-owner = ["u054c3692f90083a5b1ad23e4a663f676"]
-admin = ["u054c3692f90083a5b1ad23e4a663f676"]
-staff = ["u054c3692f90083a5b1ad23e4a663f676"]
+creator = ["u4862fe4b182b2fd194a3108e2f3662e8"]
+owner = ["u4862fe4b182b2fd194a3108e2f3662e8"]
+admin = ["u4862fe4b182b2fd194a3108e2f3662e8"]
+staff = ["u4862fe4b182b2fd194a3108e2f3662e8"]
 
 KAC = [cl,ki,kk,kc,km,kb]
 ABC = [ki,kk,kc,km,kb]
@@ -108,7 +108,7 @@ settings = {
     "changeVideo":False,
     "groupPicture":False,
     "changePicture":False,
-    "autoJoinTicket":False,
+    "autoJoinTicket":True,
     "restartPoint":False,
     "userMention":{},
     "timeRestart":{},
@@ -164,13 +164,13 @@ wait = {
     "contact":False,
     "invite":False,
     'autoJoin':True,
-    'autoAdd':False,
+    'autoAdd':True,
     'autoBlock':False,
     'Timeline':False,
-    'like': False,
+    'like': True,
     'autoLeave':False,
     'autoLeave1':False,
-    "detectMention":False,
+    "detectMention":True,
     "mentionKick":False,
     "welcomeOn":False,
     "stickerOn":False,
@@ -195,14 +195,14 @@ wait = {
             "name": "",
             "status":False
             },
-    "limit":5,
-    "unsend":False,
+    "limit":{},
+    "unsend":True,
     "mention":"Ngintip aja nih...",
     "Respontag":"Sekarang tag besok jatuh cinta... ",
     "welcome":"Welcome...",
     "leave":"See you next againt later...",
     "comment":"Super Like by: Bot...",
-    "message":"Ready bots Protection \nProteCT your Groups...",
+    "message":"【さัএπัஞ✵ບิथℓℓҨतΩ】 :\nList opsi\n🤖 Pasangan Hidup :\n🔰 Only Status ⏩ 180K/Bulan\n\n🤖 Systim Contract :\n🔰 Only Curhat ⏩ 100K/Bulan\n🔰 Zona Friend + TTM\n🔰 Zona Nyaman + Full Care + On 5day + 2 day free ⏩ 300K/Bulan\n\n✍️ Bisa Requests Mau Berapa Lama Durasi Buat Debay.\nChat Ke : http://line.me/ti/p/~max_pv\n\n📃\n* Always on 24 Jam\n* Keuntungan Banyak\n* Durasi min 0.25month\n* max no limit",
     }
 
 read = {
@@ -913,7 +913,7 @@ def bot(op):
                   cl.findAndAddContactsByMid(op.param1)
                   sendMention(op.param1, op.param1, "Haii ", ", terimakasih sudah add saya")
                   cl.sendText(op.param1, wait["message"])
-                  cl.sendContact(op.param1, "u054c3692f90083a5b1ad23e4a663f676")
+                  cl.sendContact(op.param1, "u4862fe4b182b2fd194a3108e2f3662e8")
 
         if op.type == 5:
             print ("[ 5 ] NOTIFIED AUTO BLOCK CONTACT")
@@ -1960,7 +1960,7 @@ def bot(op):
                                 
                         elif cmd == "creator" or text.lower() == 'creator':
                             if msg._from in admin:
-                                cl.sendText(msg.to,"「Created by :  Oz.♋️ 」") 
+                                cl.sendText(msg.to,"「Created by : MAX 😆 」") 
                                 ma = ""
                                 for i in creator:
                                     ma = cl.getContact(i)
@@ -1987,7 +1987,7 @@ def bot(op):
                                 eltime = time.time() - mulai
                                 bot = runtime(eltime)
                                 start = time.time()
-                                sw.sendText("u054c3692f90083a5b1ad23e4a663f676", ':)')
+                                sw.sendText("u4862fe4b182b2fd194a3108e2f3662e8", ':)')
                                 elapsed_time = time.time() - start
                                 ryan = cl.getContact(mid)
                                 zx = ""
@@ -2013,7 +2013,7 @@ def bot(op):
                                 zxc += pesan2
                                 text = xpesan + zxc + ret_ + ""
                                 cl.sendMessage(to, text, contentMetadata={'MENTION':str('{"MENTIONEES":'+json.dumps(zx2).replace(' ','')+'}')}, contentType=0)
-                                cl.sendContact(to, "u054c3692f90083a5b1ad23e4a663f676")
+                                cl.sendContact(to, "u4862fe4b182b2fd194a3108e2f3662e8")
                             except Exception as e:
                                 cl.sendMessage(msg.to, str(e))
 
@@ -2302,7 +2302,7 @@ def bot(op):
                             except:
                                 pass
                                 
-                        elif cmd == "antijs stay":
+                        elif cmd == "maxjs stay":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 try:
@@ -2934,60 +2934,21 @@ def bot(op):
                                 sw.sendMessage(msg.to,"Nama diganti jadi " + string + "")
 
 #===========BOT UPDATE============#
-                        elif cmd == "tagall" or text.lower() == 'tagall':
+                        elif cmd == "tagall":
                           if wait["selfbot"] == True:
-                            if msg._from in admin:
-                               group = cl.getGroup(msg.to)
-                               nama = [contact.mid for contact in group.members]
-                               nm1, nm2, nm3, nm4, jml = [], [], [], [], len(nama)
-                               if jml <= 100:
-                                   mentionMembers(msg.to, nama)
-                               if jml > 100 and jml < 200:
-                                   for i in range (0, 99):
-                                       nm1 += [nama[i]]
-                                   mentionMembers(msg.to, nm1)
-                                   for j in range (100, len(nama)-1):
-                                       nm2 += [nama[j]]
-                                   mentionMembers(msg.to, nm2)
-                               if jml > 200 and jml < 300:
-                                   for i in range (0, 99):
-                                       nm1 += [nama[i]]
-                                   mentionMembers(msg.to, nm1)
-                                   for j in range (100, 199):
-                                       nm2 += [nama[j]]
-                                   mentionMembers(msg.to, nm2)
-                                   for k in range (200, len(nama)-1):
-                                       nm3 += [nama[k]]
-                                   mentionMembers(msg.to, nm3)
-                               if jml > 300 and jml < 400:
-                                   for i in range (0, 99):
-                                       nm1 += [nama[i]]
-                                   mentionMembers(msg.to, nm1)
-                                   for j in range (100, 199):
-                                       nm2 += [nama[j]]
-                                   mentionMembers(msg.to, nm2)
-                                   for k in range (200, 299):
-                                       nm3 += [nama[k]]
-                                   mentionMembers(msg.to, nm3)
-                                   for l in range (300, len(nama)-1):
-                                       nm4 += [nama[l]]
-                                   mentionMembers(msg.to, nm4)
-                               if jml > 400 and jml < 500:
-                                   for i in range (0, 99):
-                                       nm1 += [nama[i]]
-                                   mentionMembers(msg.to, nm1)
-                                   for j in range (100, 199):
-                                       nm2 += [nama[j]]
-                                   mentionMembers(msg.to, nm2)
-                                   for k in range (200, 299):
-                                       nm3 += [nama[k]]
-                                   mentionMembers(msg.to, nm3)
-                                   for l in range (300, 399):
-                                       nm4 += [nama[l]]
-                                   mentionMembers(msg.to, nm4)
-                                   for m in range (400, len(nama)-1):
-                                       nm5 += [nama[m]]
-                                   mentionMembers(msg.to, nm5)
+                            group = cl.getGroup(msg.to)
+                            nama = [contact.mid for contact in group.members]
+                            k = len(nama)//20
+                            for a in range(k+1):
+                                txt = u''
+                                s=0
+                                b=[]
+                                for i in group.members[a*20 : (a+1)*20]:
+                                    b.append({"S":str(s), "E" :str(s+6), "M":i.mid})
+                                    s += 7
+                                    txt += u'@Alin \n'
+                                cl.sendMessage(to, text=txt, contentMetadata={u'MENTION': json.dumps({'MENTIONEES':b})}, contentType=0)
+                                cl.sendMessage(to, "Hello {} Mention".format(str(len(nama)))) 
 
                         elif cmd == "listbot":
                           if wait["selfbot"] == True:
@@ -3234,32 +3195,32 @@ def bot(op):
                         elif cmd == "spbot":
                             if msg._from in admin:
                                 start = time.time()
-                                sw.sendText("u923fca3dc907e047572ad25c24f1d29b", '.')
+                                sw.sendText("ue86841a3982b7da6e8094f3c218d79b6", '.')
                                 elapsed_time = time.time() - start
                                 cl.sendText(msg.to, "%s" % (elapsed_time))
                                 
                                 start2 = time.time()
-                                sw.sendText("u923fca3dc907e047572ad25c24f1d29b", '.')
+                                sw.sendText("ue86841a3982b7da6e8094f3c218d79b6", '.')
                                 elapsed_time = time.time() - start2
                                 ki.sendText(msg.to, "%s" % (elapsed_time))
                                 
                                 start3 = time.time()
-                                sw.sendText("u923fca3dc907e047572ad25c24f1d29b", '.')
+                                sw.sendText("ue86841a3982b7da6e8094f3c218d79b6", '.')
                                 elapsed_time = time.time() - start3
                                 kk.sendText(msg.to, "%s" % (elapsed_time))
                                 
                                 start4 = time.time()
-                                sw.sendMessage("u923fca3dc907e047572ad25c24f1d29b", '.')
+                                sw.sendMessage("ue86841a3982b7da6e8094f3c218d79b6", '.')
                                 elapsed_time = time.time() - start4
                                 kc.sendText(msg.to, "%s" % (elapsed_time))
                                 
                                 start5 = time.time()
-                                sw.sendText("u923fca3dc907e047572ad25c24f1d29b", '.')
+                                sw.sendText("ue86841a3982b7da6e8094f3c218d79b6", '.')
                                 elapsed_time = time.time() - start5
                                 km.sendText(msg.to, "%s" % (elapsed_time)) 
                                 
                                 start6 = time.time()
-                                sw.sendText("u923fca3dc907e047572ad25c24f1d29b", '.')
+                                sw.sendText("ue86841a3982b7da6e8094f3c218d79b6", '.')
                                 elapsed_time = time.time() - start6
                                 kb.sendText(msg.to, "%s" % (elapsed_time)) 
                                 
