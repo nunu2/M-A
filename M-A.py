@@ -11,7 +11,7 @@ from bs4 import BeautifulSoup
 from googletrans import Translator
 import youtube_dl
 #=============
-cl = LineClient(authToken='EvgPPkcn5qAOXK8PGD65.hFJXgvrJty58rzQg1nG81q.ug/q0lAzoiP+1/KzY3G5BK/8QhCut18/kiVdXi1IJdM=')
+cl = LineClient("sunu0734@gmail.com","sunu2018")
 cl.log("Auth Token : " + str(cl.authToken))
 channel = LineChannel(cl)
 cl.log("Channel Access Token : " + str(channel.channelAccessToken))
@@ -22,7 +22,7 @@ lineSettings = cl.getSettings()
 mid = cl.getProfile().mid
 responsename1 = cl.getProfile().displayName
 
-ki = LineClient(authToken='EvLV2qK6lkJPBWBvOXI6.YFTivvUQlJGyQ0q4WC5f5G.W7Tvs5t4FOLfP6L3/nJNrEDbhXC0lnpP62zUqAfszr8=')
+ki = LineClient("su4nu2018@gmail.com","sunu2018")
 ki.log("Auth Token : " + str(ki.authToken))
 channel1 = LineChannel(ki)
 ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
@@ -31,7 +31,7 @@ lineSettings = ki.getSettings()
 Amid = ki.getProfile().mid
 responsename2 = ki.getProfile().displayName
 
-kk = LineClient(authToken='Evgzt2YDGu5j8fI6S7y0.HekonXOId0LOrlrdV8suWa.Za9/BK3lzl/gXPpsb+8XV/NuwKNbdF6FWPfC2rPf9j0=')
+kk = LineClient("bot2su2019@gmail.com","nunu_kap2019")
 kk.log("Auth Token : " + str(kk.authToken))
 channel2 = LineChannel(kk)
 kk.log("Channel Access Token : " + str(channel2.channelAccessToken))
@@ -40,7 +40,7 @@ lineSettings = kk.getSettings()
 Bmid = ki.getProfile().mid
 responsename3 = ki.getProfile().displayName
 
-kc = LineClient(authToken='EvFUiD2pfNELRC3Aer45.As29tpM17+gWKq/m5Yz8Xq.WebKAPovwWTLwdjnqmglCD8iV+zDDoDIsP7eOSE3fhc=')
+kc = LineClient("bot3su2019@gmail.com","nunu_kap2019")
 kc.log("Auth Token : " + str(kc.authToken))
 channel3 = LineChannel(kc)
 kc.log("Channel Access Token : " + str(channel3.channelAccessToken))
@@ -49,7 +49,7 @@ lineSettings = kc.getSettings()
 Cmid = kc.getProfile().mid
 responsename4 = kc.getProfile().displayName
 
-km = LineClient(authToken='EwMTHv3xaSSvn60tes8c.qXiB6k3zJEG+VPAZ98trJa.AuMcEd6vA5w6wiZfyxlFAwSAu2o/Jh0eN9DGZIOEmoo=')
+km = LineClient("bot4su2019@gmail.com","nunu_kap2019")
 km.log("Auth Token : " + str(km.authToken))
 channel4 = LineChannel(km)
 km.log("Channel Access Token : " + str(channel4.channelAccessToken))
@@ -58,7 +58,7 @@ lineSettings = km.getSettings()
 Dmid = km.getProfile().mid
 responsename5 = km.getProfile().displayName
 
-kb = LineClient(authToken='EwZD2TMWRC8DLQeUU9Z2.hmdPzUzp8pDxkggTRRJByG.TpUnBKD5WpzVyF1SLVgfHCRajdwHRf+PYj09TLQEj2s=')
+kb = LineClient("bot5su2019@gmail.com","nunu_kap2019")
 kb.log("Auth Token : " + str(kb.authToken))
 channel5 = LineChannel(kb)
 kb.log("Channel Access Token : " + str(channel5.channelAccessToken))
@@ -67,7 +67,7 @@ lineSettings = kb.getSettings()
 Emid = kb.getProfile().mid
 responsename6 = kb.getProfile().displayName
 
-sw = LineClient(authToken='EvhD7rlI4FsSG4mjarXe.fi6AOZ9NS4Fsm3ey6B9rlG.IqporEXQK+RvUBPmwanuqAym2EBaTTbbN5tNNduoGIQ=')
+sw = LineClient("bot6su2019@gmail.com","nunu_kap2019")
 sw.log("Auth Token : " + str(sw.authToken))
 channel6 = LineChannel(sw)
 sw.log("Channel Access Token : " + str(channel6.channelAccessToken))
@@ -76,7 +76,7 @@ lineSettings = sw.getSettings()
 Zmid = sw.getProfile().mid
 responsename7 = sw.getProfile().displayName
 
-print("BY:【さัএπัஞ✵ບิथℓℓҨतΩ】")
+print("ลอคอินแล้ว")
 
 creator = ["u4862fe4b182b2fd194a3108e2f3662e8"]
 owner = ["u4862fe4b182b2fd194a3108e2f3662e8"]
@@ -202,7 +202,7 @@ wait = {
     "welcome":"Welcome...",
     "leave":"See you next againt later...",
     "comment":"Super Like by: Bot...",
-    "message":"【さัএπัஞ✵ບิथℓℓҨतΩ】 :\nList opsi\n🤖 Pasangan Hidup :\n🔰 Only Status ⏩ 180K/Bulan\n\n🤖 Systim Contract :\n🔰 Only Curhat ⏩ 100K/Bulan\n🔰 Zona Friend + TTM\n🔰 Zona Nyaman + Full Care + On 5day + 2 day free ⏩ 300K/Bulan\n\n✍️ Bisa Requests Mau Berapa Lama Durasi Buat Debay.\nChat Ke : http://line.me/ti/p/~max_pv\n\n📃\n* Always on 24 Jam\n* Keuntungan Banyak\n* Durasi min 0.25month\n* max no limit",
+    "message":"༄ꪶꪶꪣꪫꪊุ࿐ 💘༄ꪶꪶꪣꪫՃิ࿐ :\nList opsi\n🤖 Pasangan Hidup :\n🔰 Only Status ⏩ 180K/Bulan\n\n🤖 Systim Contract :\n🔰 Only Curhat ⏩ 100K/Bulan\n🔰 Zona Friend + TTM\n🔰 Zona Nyaman + Full Care + On 5day + 2 day free ⏩ 300K/Bulan\n\n✍️ Bisa Requests Mau Berapa Lama Durasi Buat Debay.\nChat Ke : http://line.me/ti/p/~max_pv\n\n📃\n* Always on 24 Jam\n* Keuntungan Banyak\n* Durasi min 0.25month\n* max no limit",
     }
 
 read = {
